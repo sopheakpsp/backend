@@ -1,0 +1,62 @@
+.clearout {
+height:20px;
+clear:both;
+}
+
+#flexiselDemo1, #flexiselDemo2, #flexiselDemo3 {
+display:none;
+}
+
+.nbs-flexisel-container {
+    position:relative;
+    max-width:100%;
+    height: 70px;
+}
+.nbs-flexisel-ul {
+    position:relative;
+    width:99999px;
+    margin:0px;
+    padding:0px;
+    list-style-type:none;   
+    text-align:center;  
+}
+
+.nbs-flexisel-inner {
+    overflow:hidden;
+    float:left;
+    width:100%;
+    background: #fff;
+    
+}
+
+.nbs-flexisel-item {
+    float:left;
+    position:relative;
+    height: 70px;
+    vertical-align: middle
+}
+.nbs-flexisel-item img {
+    vertical-align: middle
+}
+
+/*** Navigation ***/
+
+.nbs-flexisel-nav-left,
+.nbs-flexisel-nav-right {
+    width: 22px;
+    height: 22px; 
+    position: absolute;
+    cursor: pointer;
+    z-index: 100;
+    opacity: 0.5;
+}
+
+.nbs-flexisel-nav-left {
+    left: 25px;
+    background: url(../img/button-previous.png) no-repeat;
+}
+
+.nbs-flexisel-nav-right {
+    right: 25px;
+    background: url(../img/button-next.png) no-repeat;
+}

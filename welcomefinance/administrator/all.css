@@ -1,0 +1,151 @@
+/*LINK*/
+.l a:link,.l a:visited{color:#000; text-align:left; text-decoration:none;}
+.l a:hover,.l a:active{color:#004488 ; text-decoration:underline}
+
+.login a:link,.login a:visited{float:right; width:75px;height:27px;background:url(imgs/btn.gif) no-repeat;color:#000; text-align:center; text-decoration:none; padding-top:6px;}
+.login a:hover,.login a:active{background:url(imgs/btn.gif) no-repeat;color:#004488; font-weight:bold}
+
+.cp_menu A:link, .cp_menu A:visited {float:left; text-decoration:none; color:#3d3a3a; width:108px; height:90px; text-align:center; margin-right:0px; background:url(imgs/cp_menu_0.gif) no-repeat; padding-top:10px}
+
+.cp_menu A:hover, .cp_menu A:active {float:left; text-decoration:none; color:#0099FF;width:108px; height:90px; text-align:center; cursor:pointer; margin-right:0px; background:url(imgs/cp_menu_1.gif) no-repeat; padding-top:10px}
+
+.f a:link,.f a:visited{color:#000099; text-align:left; text-decoration:none;}
+.f a:hover,.f a:active{color:#004488 ; text-decoration:underline}
+
+
+
+/* Fonts style */
+.kh{font-family:"Khmer OS";}
+.en{font-family:Arial, 'Liberation Sans', FreeSans, sans-serif;}
+.title_blue{font-size:15px; color:#004488; font-weight:bold}
+.label{font-size:11px; color:#000;}
+.label_red{font-size:11px; color:red;}
+.label_green{font-size:11px; color:green;}
+.company{font-size:18px;color:#013797; font-weight:bold}
+.cms{font-size:15px;color:#013797; font-weight:bold}
+.err{font-size:11px; color:red; font-weight:bold }
+.suc{font-size:11px; color:#22d300; font-weight:bold }
+.title_header{font-size:14px; font-weight:bold}
+.title_12{font-size:12px; font-weight:bold}
+.label12{font-size:12px; color:#000;}
+.copyright{font-family:Tahoma; font-size:11px; color:#000099}
+
+.red{color:red}
+.green{color:green}
+.bold{font-weight:bold}
+
+
+
+/***************** Container *****************************/
+
+/*for log in*/
+.space_login{padding-top:100px}
+.from_login_ctn{float:left; width:267px;;border:0px solid red; margin-left:60px}
+.cms_title_container{float:left; width:90%; height:auto; border:0px solid green; text-align:left; margin:10px 0px 0px 12px; background:url(imgs/login_icon.gif) no-repeat; padding:5px 0px 0px 35px}
+.space_t_f{float:left; width:327px; height:20px;border:0px solid red;}
+.login_err{float:left; width:90%; height:11px; border:0px solid green; text-align:left; margin:-5px 0px 0px 12px; background:url(imgs/login_err.gif) no-repeat; padding:5px 0px 0px 21px}
+
+.login_ok{float:left; width:90%; height:14px; border:0px solid green; text-align:left; margin:0px 0px 0px 12px; background:url(imgs/ok.gif) no-repeat; padding:2px 0px 0px 21px}
+.login_ele_container{float:left; width:90%; height:auto; padding:5px 0px 0px 5px; text-align:left}
+
+
+/*bor Logend */
+
+/*header*/
+.header_ctn{float:left; width:984px; height:105px; background:url(imgs/bg_header.jpg) no-repeat}
+.logo_container{float:left; width:135px; height:80px; border:0px solid blue; margin:10px 0px 0px 55px;}
+.backend_title_ctn{float:left; width:300px; margin:20px 0px 0px 40px; border:0px solid red; text-align:center}
+.topmenu_welcome_date_container{float:right; width:400px; border:0px solid blue; margin:4px 5px 0px 0px}
+.topmenu_ctn{float:right; width:auto; height:25px; background:url(imgs/home-blog.gif) no-repeat left bottom; padding:5px 5px 0px 5px; border:0px solid green}
+.logout_container{float:right; width:auto; height:12px; background:url(imgs/logout.gif) no-repeat left top; padding:4px 3px 0px 20px; border:0px solid yellow}
+.user_container{float:right; width:auto; height:12px; background:url(imgs/user.gif) no-repeat left top; padding:4px 15px 0px 20px; border:0px solid yellow}
+.controlpanel_container{float:right; width:auto; height:12px; background:url(imgs/controlpanel.gif) no-repeat left top; padding:4px 15px 0px 20px; border:0px solid yellow}
+.preview_container{float:right; width:auto; height:12px; background:url(imgs/website.png) no-repeat left top; padding:4px 15px 0px 20px; border:0px solid yellow}
+.date_ctn{float:right; width:300px; margin:8px 4px 0px 0px; text-align:right}
+.welcome_ctn{float:right; width:300px; margin:8px 4px 0px 0px; text-align:right}
+
+/*Menu*/
+.whole_menu_ctn{float:left; width:973px; padding:3px 0px 0px 11px; background:url(imgs/midle_bg.gif) repeat-y}
+.menu_ctn{float:left; width:960px; border:0px solid red}
+.menu_m_ctn{float:left;width:960px; background:url(imgs/action_border_m.gif) repeat-y}
+.menu_item_ctn{float:left; width:auto; height:auto; border:0px solid red; text-align:center; margin-left:8px;}
+.tm a:link,.tm a:visited{float:left;color:#000; text-align:center; border:1px solid #f9f9f9; text-decoration:none; padding:3px; width:65px}
+.tm_current A:link, .tm_current A:visited {display:block; float:left; text-decoration:none; color:blue; text-align:center; border:1px solid #e5e3e3; border-right:1px solid #afafaf; border-bottom:1px solid #afafaf; cursor:pointer; padding:3px;width:65px}
+.tm A:hover, .tm A:active {display:block; float:left; text-decoration:none; color:#000099; text-align:center; border:1px solid #e5e3e3; border-right:1px solid #afafaf; border-bottom:1px solid #afafaf; cursor:pointer;}
+
+/*body*/
+.manage_body_cotainer{float:left; width:984px; height:auto; background:url(imgs/midle_bg.gif) repeat-y; border:0px solid red}
+.manage_footer_container{float:left; width:984px; height:56px; background:url(imgs/footer_bg.gif) no-repeat}
+
+/*front Page*/
+.front_body_container{float:left; width:676px; height:auto; margin:25px 0px 25px 0px; padding-left:308px; border:0px solid red;}
+.manage_record_container{float:left; width:368px; border:0px solid yellow}
+.front_title_bar_container{float:left; width:368px; height:23px; background:url(imgs/cp_title.gif) no-repeat; margin:0px 0px 10px 0px; padding:5px 0px 0px 8px}
+.front_menu_1_container{float:left; width:108px; height:100px; padding:0px 0px 0px 0px; border:0px solid green}
+.front_menu_2_container{float:left; width:108px; height:100px; margin-left:22px; border:0px solid green}
+.front_menu_3_container{float:right; width:108px; height:100px; border:0px solid green}
+.ftron_text_menu{float:left; width:100%; text-align:center; padding-top:20px}
+
+/*for Object Page*/
+.whole_object_ctn{float:left; width:973px; padding:5px 0px 0px 11px; background:url(imgs/midle_bg.gif) repeat-y}
+.object_ctn{float:left; width:960px; border:0px solid red}
+.object_menu_ctn{float:left;width:960px; padding:0px 0px 6px 0px; background:url(imgs/bg_obj_menu.gif) repeat-y}
+.object_m_ctn{float:left;width:950px; padding:0px 5px 0px 5px; background:url(imgs/action_border_m.gif) repeat-y}
+
+.object_icon_container{float:left; width:auto; margin-left:4px; margin-top:8px; border:0px solid red}
+.object_title_container{float:left; width:auto; padding:8px 0px 0px 0px; margin-top:8px; border:0px solid red}
+.act_message{float:left; width:auto; padding:8px 0px 0px 0px; margin:8px 0px 0px 50px; border:0px solid red; }
+.command_task_container{float:right; width:auto; margin-right:6px; border:0px solid red}
+
+.taskmenu_item_ctn{float:right; width:auto; height:auto; border:0px solid red; text-align:center; margin-left:6px;}
+.task_menu a:link,.task_menu a:visited{float:right;color:#000; text-align:center; border:1px solid #f9f9f9; text-decoration:none; padding:1px; width:65px}
+.task_menu_current A:link, .task_menu_current A:visited {display:block; float:right; text-decoration:none; color:blue; text-align:center; border:1px solid #e5e3e3; border-right:1px solid #afafaf; border-bottom:1px solid #afafaf; cursor:pointer; padding:3px;width:65px}
+.task_menu A:hover, .task_menu A:active {display:block; float:right; text-decoration:none; color:blue; text-align:center; border:1px solid #e5e3e3; border-right:1px solid #afafaf; border-bottom:1px solid #afafaf; cursor:pointer;}
+
+ /* for table record list */
+.blog_search_container{float:left; width:950px; margin:4px 0px; border:0px solid red}
+.order A:link, .order A:visited {text-decoration:none; color:#000099}
+.order A:hover, .order A:active {text-decoration: none;color:#0066CC}
+.c_edit a:link,.c_edit a:visited{color:#004488; text-align:left; text-decoration:none;}
+.c_edit a:hover,.c_edit a:active{color:#004488 ; text-decoration:underline}
+ #tbl_view td{ border-spacing:3px 3px; border:1px solid #ddd;}
+ #tbl_view #sub td{ border-spacing:3px 3px; border:0px solid #ddd; color:#339900}
+.tbl{border-collapse:collapse; margin-top:5px;}
+.tbl_cell{border:1px solid #ddd;}
+.tr_header{background:#ededed; text-align:center}
+.tr_total{background:#fdfbda; text-align:center;}
+.cell_header{font-size:11px;color:#000; font-weight:bold}
+
+
+/*For Draw Element of Form*/
+
+.outer_left_form_blog{float:left; width:460px; height:auto; padding:5px 5px; margin:5px 0px 0px 0px; border:1px solid #ddd}
+.outer_right_form_blog{float:right; width:460px; height:auto; padding:5px 5px; margin:5px 0px 0px 0px; border:1px solid #ddd}
+
+.inner_form_blog{float:left; width:460px; border:0px solid green}
+.element_form_left{float:left; width:222px; border:0px solid black; text-align:left; padding-bottom:5px}
+.element_form_right{float:right; width:222px; border:0px solid black; text-align:left ;padding-bottom:5px}
+
+.alert{background:url(imgs/alert.gif) no-repeat top left; padding-left:20px; height:16px}
+.success{background:url(imgs/success.gif) no-repeat top left; padding-left:20px; height:16px}
+
+/* pagination */
+
+DIV.sabrosus {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; PADDING-BOTTOM: 3px; MARGIN: 3px; PADDING-TOP: 3px; TEXT-ALIGN: center
+}
+DIV.sabrosus A {
+	BORDER-RIGHT: #9aafe5 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #9aafe5 1px solid; PADDING-LEFT: 5px; PADDING-BOTTOM: 2px; BORDER-LEFT: #9aafe5 1px solid; COLOR: #2e6ab1; MARGIN-RIGHT: 2px; PADDING-TOP: 2px; BORDER-BOTTOM: #9aafe5 1px solid; TEXT-DECORATION: none
+}
+DIV.sabrosus A:hover {
+	BORDER-RIGHT: #2b66a5 1px solid; BORDER-TOP: #2b66a5 1px solid; BORDER-LEFT: #2b66a5 1px solid; COLOR: #000; BORDER-BOTTOM: #2b66a5 1px solid; BACKGROUND-COLOR: lightyellow
+}
+DIV.pagination A:active {
+	BORDER-RIGHT: #2b66a5 1px solid; BORDER-TOP: #2b66a5 1px solid; BORDER-LEFT: #2b66a5 1px solid; COLOR: #000; BORDER-BOTTOM: #2b66a5 1px solid; BACKGROUND-COLOR: lightyellow
+}
+DIV.sabrosus SPAN.current {
+	BORDER-RIGHT: navy 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: navy 1px solid; PADDING-LEFT: 5px; FONT-WEIGHT: bold; PADDING-BOTTOM: 2px; BORDER-LEFT: navy 1px solid; COLOR: #fff; MARGIN-RIGHT: 2px; PADDING-TOP: 2px; BORDER-BOTTOM: navy 1px solid; BACKGROUND-COLOR: #2e6ab1
+}
+DIV.sabrosus SPAN.disabled {
+	BORDER-RIGHT: #929292 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #929292 1px solid; PADDING-LEFT: 5px; PADDING-BOTTOM: 2px; BORDER-LEFT: #929292 1px solid; COLOR: #929292; MARGIN-RIGHT: 2px; PADDING-TOP: 2px; BORDER-BOTTOM: #929292 1px solid
+}

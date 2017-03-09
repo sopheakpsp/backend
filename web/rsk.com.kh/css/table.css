@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+
+.th-view2 tr th{
+	text-align:left;
+	border:none;
+	border-bottom:1px dashed #666666
+	}
+	
+.th-view2 tr td{
+	border-bottom:1px dashed #666666}
+
+.th-view2{
+	background:#f1f1f1;
+	box-shadow: 0.5px 0.5px 5px #F3F3F3;
+	padding:15px;
+	margin:5px 0 25px 0;}
+	
+td{
+	vertical-align:top}	
+
+.th-view3 tr th{
+	border:none;
+	border-bottom:1px dashed #666666
+	}
+	
+.th-view3 tr td{
+	border-bottom:1px dashed #666666}
+
+.th-view3{
+	background:#f1f1f1;
+	box-shadow: 0.5px 0.5px 5px #F3F3F3;
+	padding:15px;
+	margin:5px 0 25px 0;}
+	
+td{
+	vertical-align:top}	
+
+

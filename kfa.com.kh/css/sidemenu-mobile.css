@@ -1,0 +1,48 @@
+.sidemenu-icon {
+/*    padding: 15px;*/
+    position: absolute;
+    left: -250px;
+    transition: 0.2s;
+    height: 100%;
+    margin: 0;
+    z-index: 1000;
+    
+}
+.sidemenu-icon img{
+    margin: 10px;
+    cursor: pointer
+}
+.sidemenu {
+    float: left;
+    background: #3b2e2e;
+    height: 110%;
+    padding: 10px 0;
+    overflow-y: scroll;
+    
+}
+
+
+
+.sidemenu ul{
+    padding: 0 15px;
+    margin: 0;
+    list-style: inside;
+    
+}
+
+.sidemenu li{
+    line-height: 25px;
+    color: dimgrey
+}
+.sidemenu a{
+    color: azure;
+    text-decoration: none
+}
+
+.menu-active{
+    -webkit-transform: translateX(250px);
+    -ms-transform: translateX(250px);
+    -moz-transform: translateX(250px);
+    -o-transform: translateX(250px);
+    transform: translateX(250px);
+}

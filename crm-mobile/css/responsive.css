@@ -1,0 +1,11 @@
+.responsive-textarea{
+	height: 300px;
+	background-color: black;
+}
+
+@media screen(max-height: 400px) {
+	.responsive-textarea{
+		height: 50px
+	}
+	
+}

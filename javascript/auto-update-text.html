@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Auto Update text</title>
+</head>
+<body>
+	<textarea name="txt1" id="txt1" cols="30" rows="10" onkeydown="update();"></textarea>
+	<textarea name="txt2" id="txt2" cols="30" rows="10"></textarea>
+
+<script>
+	document.getElementById('txt2').innerHTML = document.getElementById('txt1').value;
+function update(){
+	document.getElementById('txt2').innerHTML = document.getElementById('txt1').value;
+}
+</script>
+</body>
+</html>

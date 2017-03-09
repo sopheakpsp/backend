@@ -1,0 +1,70 @@
+/*filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=crop, src='bgimgs/bg_lpanel.png');*/
+body{background:#048ecb url(bgimgs/bg_page.png) repeat-x; margin-top:0px; margin-right:0px; margin-bottom:0px; margin-left:0px; }
+.margin_zero{margin:0px;}
+/*PNG Background Fix*/
+.png_fix { behavior: url(png_fix/iepngfix.htc) }
+
+/*font and size*/
+.kh{font-family:"Khmer OS","Khmer OS Battambang","Khmer OS Content","Khmer OS System";}
+.en{font-family:'Arial', 'tahoma', FreeSans, sans-serif;}
+
+.size10_kh{font-size:10px;  line-height:22px;}
+.size10_en{font-size:10px;}
+
+.size11_kh{font-size:11px;  line-height:22px;}
+.size11_en{font-size:11px;}
+
+.size12_kh{font-size:12px;  line-height:22px;}
+.size12_en{font-size:12px;}
+
+.size13_kh{font-size:13px;  line-height:22px;}
+.size13_en{font-size:13px;}
+
+.size14_kh{font-size:14px;  line-height:22px;}
+.size14_en{font-size:14px;}
+
+.size15_kh{font-size:15px;  line-height:22px;}
+.size15_en{font-size:15px;}
+
+.size16_kh{font-size:16px;  line-height:22px;}
+.size16_en{font-size:16px;}
+
+.size17_kh{font-size:17px;  line-height:22px;}
+.size17_en{font-size:17px;}
+
+.size18_kh{font-size:18px;  line-height:22px;}
+.size18_en{font-size:18px;}
+
+.size19_kh{font-size:19px;  line-height:22px;}
+.size19_en{font-size:19px;}
+
+.size20_kh{font-size:20px;  line-height:22px;}
+.size20_en{font-size:20px;}
+
+
+/*color*/
+.blue{ color:#060b77;}
+.green{color:#13500d;}
+.white{color:#fff;}
+.gold{color:#e4ff2d;}
+.red{color:red;}
+
+/*style*/
+.bold{font-weight:bold}
+.italic{font-style:italic;}
+
+/*PAGE*/
+.bg_page_left{float:left; width:100%; height:768px; background:url(bgimgs/bg_page_left.png) no-repeat left 236px; border:0px solid yellow}
+.bg_page_right{float:left; width:100%; height:768px; background:url(bgimgs/bg_page_right.png) no-repeat right 236px; border:0px solid yellow}
+
+
+.inner{display: table;margin: 0px auto;border:0px solid red}
+#container > br { display: none; }
+#borker1{width: 5em; /* gives "layout"
+                        and sets width smaller than the container */
+                background: #ddd;
+   }
+#borker2{
+                height: 2em; /* gives "layout" but width is auto */
+                background: #ddd;
+        }

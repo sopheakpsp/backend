@@ -1,0 +1,355 @@
+.ddsmoothmenu{
+    width: 952px;
+    float: left;
+    height: 41px;
+	margin:0px 0px 0px 0px;
+	border:0px solid;
+}
+
+.ddsmoothmenu ul{
+    z-index:10;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    float: left;
+}
+ 
+/*Top level list items*/
+.ddsmoothmenu ul li{
+    position: relative;
+    display: inline;
+    float: left;
+    z-index:10;
+}
+
+
+/*Top level menu link items style SIMPLE SIMPLE SIMPLE SIMPLE SIMPLE SIMPLE SIMPLE SIMPLE SIMPLE SIMPLE SIMPLE SIMPLE SIMPLE SIMPLE*/
+.ddsmoothmenu ul li a{
+    float:left;
+    display: block;
+    behavior: url(png_fix/iepngfix.htc);
+	/*font-weight:600;	*/
+	text-decoration:none;
+	margin:0px;
+}
+
+
+.ddsmoothmenu ul li a span.middle{
+    float:left;
+    display: block;
+    color: #FFF;
+    text-decoration: none;
+	background:url(menu_seperate.png) no-repeat right top;
+    height:36px;
+    padding:0px 20px 0px 20px;
+    border:0px solid red;
+	line-height:36px;
+    
+}
+.ddsmoothmenu ul li a span.left{
+    float:left;
+    display: block;
+    text-decoration: none;
+	width:0px;
+	height:0px;
+}
+.ddsmoothmenu ul li a span.right{
+    float:left;
+    display: block;
+    text-decoration: none;
+	width:0px;
+	height:0px;
+}
+
+
+
+
+.ddsmoothmenu ul li a.selected, .ddsmoothmenu ul li a.current, .ddsmoothmenu ul li a:hover{
+    float:left;
+    display: block;
+    /*background:url(sep_middle.png) repeat-x center;*/
+    behavior: url(png_fix/iepngfix.htc);
+}
+.ddsmoothmenu ul li a.selected span.middle, .ddsmoothmenu ul li a.current span.middle, .ddsmoothmenu ul li a:hover span.middle{
+    float:left;
+    display: block;
+    color:#008340;
+    text-decoration: none;
+	/*background:url(blank__.png) repeat-x;*/
+	background:url(sep_middle.png) repeat-x center;
+    height:28px;
+    padding:0px 8px 0px 8px;
+	margin-top:2px;
+	line-height:28px;
+}
+.ddsmoothmenu ul li a.selected span.left, .ddsmoothmenu ul li a.current span.left, .ddsmoothmenu ul li a:hover span.left{
+    float:left;
+    display: block;
+    text-decoration: none;
+	background:url(sep_left.png) no-repeat;
+    text-align: center;
+	width:12px;
+	height:28px;
+	margin-top:6px;
+}
+.ddsmoothmenu ul li a.selected span.right, .ddsmoothmenu ul li a.current span.right, .ddsmoothmenu ul li a:hover span.right{
+    float:left;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+	background:url(sep_right.png) no-repeat;
+	width:12px;
+	height:28px;
+	margin-top:6px;
+}
+/* END Top level menu link items style SIMPLE SIMPLE SIMPLE SIMPLE SIMPLE SIMPLE SIMPLE SIMPLE SIMPLE SIMPLE SIMPLE SIMPLE SIMPLE SIMPLE*/
+
+
+
+
+
+
+
+
+
+/*Top level menu link items style  NO SEPERATE NO SEPERATE NO SEPERATE NO SEPERATE NO SEPERATE NO SEPERATE NO SEPERATE NO SEPERATE NO SEPERATE*/
+
+
+/*FOR SIMPLE RECORD ACTION :SELECTED, CURRENT, HOVER*/
+.ddsmoothmenu ul:first-of-type > li:first-child  a.selected, .ddsmoothmenu ul:first-of-type > li:first-child  a.current, .ddsmoothmenu ul:first-of-type > li:first-child  a:hover{
+    float:left;
+    display: block;
+    /*background: url(menu_seperate.png) no-repeat right center;*/
+    behavior: url(png_fix/iepngfix.htc);
+}
+.ddsmoothmenu ul:first-of-type > li:first-child  a.selected span.middle, .ddsmoothmenu ul:first-of-type > li:first-child  a.current span.middle, .ddsmoothmenu ul:first-of-type > li:first-child  a:hover span.middle{
+    float:left;
+    display: block;
+    color:#008340;
+	/*font-weight:bold;*/
+    text-decoration: none;
+	/*background:url(blank__.png) repeat-x;*/
+	background:url(sep_middle.png) repeat-x center;
+    height:28px;
+    padding:0px 8px 0px 8px;
+	line-height:28px;
+}
+.ddsmoothmenu ul:first-of-type > li:first-child  a.selected span.left, .ddsmoothmenu ul:first-of-type > li:first-child  a.current span.left, .ddsmoothmenu ul:first-of-type > li:first-child  a:hover span.left{
+    float:left;
+    display: block;
+    text-decoration: none;
+	background:url(sep_left.png) no-repeat;
+    text-align: center;
+	width:12px;
+	height:28px;
+	margin-top:6px;
+}
+.ddsmoothmenu ul:first-of-type > li:first-child  a.selected span.right, .ddsmoothmenu ul:first-of-type > li:first-child  a.current span.right, .ddsmoothmenu ul:first-of-type > li:first-child  a:hover span.right{
+    float:left;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+	background:url(sep_right.png) no-repeat;
+	width:12px;
+	height:28px;
+	margin-top:6px;
+}
+/* END Top level menu link items style NO SEPERATE NO SEPERATE NO SEPERATE NO SEPERATE NO SEPERATE NO SEPERATE NO SEPERATE NO SEPERATE*/
+
+
+
+
+
+
+
+
+
+/*Top level menu link items style  NO SEPERATE NO SEPERATE NO SEPERATE NO SEPERATE NO SEPERATE NO SEPERATE NO SEPERATE NO SEPERATE NO SEPERATE*/
+.ddsmoothmenu ul li.noseperate a{
+     float:left;
+    display: block;
+	background:none;
+    behavior: url(png_fix/iepngfix.htc);
+	
+}
+
+
+.ddsmoothmenu ul li.noseperate a span.middle{
+    float:left;
+    display: block;
+    color:#FFF;
+    text-decoration: none;
+	/*background:url(blank__.png) repeat-x;*/
+	background: none;
+	
+    height:35px;
+    padding:0px 18px 0px 18px;
+	line-height:35px;
+}
+.ddsmoothmenu ul li.noseperate a span.left{
+    float:left;
+    display: block;
+    text-decoration: none;
+	background:url(sep_left.png) no-repeat;
+    text-align: center;
+	width:0px;
+	height:0px;
+}
+.ddsmoothmenu ul li.noseperate a span.right{
+    float:left;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+	background:url(sep_right.png) no-repeat;
+	width:0px;
+	height:0px;
+}
+
+/*FOR SIMPLE RECORD ACTION :SELECTED, CURRENT, HOVER*/
+.ddsmoothmenu ul li.noseperate a.selected, .ddsmoothmenu ul li.noseperate a.current, .ddsmoothmenu ul li.noseperate a:hover{
+     float:left;
+    display: block;
+    background:none;
+    behavior: url(png_fix/iepngfix.htc);
+}
+.ddsmoothmenu ul li.noseperate a.selected span.middle, .ddsmoothmenu ul li.noseperate a.current span.middle, .ddsmoothmenu ul li.noseperate a:hover span.middle{
+    float:left;
+    display: block;
+    color:#008340;
+	/*font-weight:bold;*/
+    text-decoration: none;
+	/*background:url(blank__.png) repeat-x;*/
+	background:url(sep_middle.png) repeat-x center;
+    height:28px;
+    padding:0px 10px 0px 10px;
+	line-height:12px;
+}
+.ddsmoothmenu ul li.noseperate a.selected span.left, .ddsmoothmenu ul li.noseperate a.current span.left, .ddsmoothmenu ul li.noseperate a:hover span.left{
+    float:left;
+    display: block;
+    text-decoration: none;
+	background:url(sep_left.png) no-repeat;
+    text-align: center;
+	width:12px;
+	height:28px;
+}
+.ddsmoothmenu ul li.noseperate a.selected span.right, .ddsmoothmenu ul li.noseperate a.current span.right, .ddsmoothmenu ul li.noseperate a:hover span.right{
+    float:left;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+	background:url(sep_right.png) no-repeat;
+	width:12px;
+	height:28px;
+}
+/* END Top level menu link items style NO SEPERATE NO SEPERATE NO SEPERATE NO SEPERATE NO SEPERATE NO SEPERATE NO SEPERATE NO SEPERATE*/
+
+
+
+
+
+* html .ddsmoothmenu ul li a{ /*IE6 hack to get sub menu links to behave correctly*/
+                              display: inline-block;
+}
+
+* html .ddsmoothmenu ul li a.last{ /*IE6 hack to get sub menu links to behave correctly*/
+                                   display: inline-block;
+}
+
+
+/*1st sub level menu*/
+.ddsmoothmenu ul li ul{
+position: absolute;
+z-index:5px;
+left: 0;
+display: none; /*collapse all sub menus to begin with*/
+visibility: hidden;
+padding:0px;
+}
+
+/*Sub level menu list items (undo style from Top level List Items)*/
+.ddsmoothmenu ul li ul li{
+display: list-item;
+float: left;
+padding:0px;
+background:none;
+margin-top:0px;
+}
+
+/*All subsequent sub menu levels vertical offset after 1st level sub menu */
+.ddsmoothmenu ul li ul li ul{
+top: 0;
+}
+
+/* Sub level menu links style */
+
+
+.ddsmoothmenu ul li ul li a{
+width: 180px; /*width of sub menus*/
+margin: 0px;
+padding:4px;
+/*border-left: 1px solid #06416e;
+border-right: 1px solid #06416e;*/
+border-bottom: 1px solid #fff;
+background:#04582e !important;
+text-align:left;
+color: #ffffff;
+text-decoration:none;
+line-height:20px;
+}
+
+
+.ddsmoothmenu ul li  ul li a.selected, .ddsmoothmenu ul li ul li a.current, .ddsmoothmenu ul li ul li a:hover{ 
+/*CSS class that's dynamically added to the currently active menu items' LI A element*/
+width: 180px; /*width of sub menus*/
+margin: 0px;
+padding:4px;
+background:#06773e !important;
+text-align:left;
+color: #ffffff;
+z-index:2;
+line-height:20px;
+}
+
+
+
+
+
+
+
+/* Holly Hack for IE \*/
+* html .ddsmoothmenu{height: 1%;} /*Holly Hack for IE7 and below*/
+
+
+/* ######### CSS classes applied to down and right arrow images  ######### */
+
+.downarrowclass{
+	/*position: absolute;*/
+    margin:0px;
+    visibility: hidden;
+	display:none;
+}
+
+.rightarrowclass{
+    position: absolute;
+	z-index:5px;
+    top: 0px;
+    right: 0px;
+    visibility: hidden;
+}
+
+/* ######### CSS for shadow added to sub menus  ######### */
+
+.ddshadow{
+    position: absolute;
+	z-index:5px;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 0;
+    background: silver;
+}
+
+.toplevelshadow{ /*shadow opacity. Doesn't work in IE*/
+                 opacity: 0.8;
+}

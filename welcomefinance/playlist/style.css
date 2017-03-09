@@ -1,0 +1,50 @@
+/*for Group Menu*/
+/*SERVICE*/
+.group_menu_ctn{float:left; width:216px; margin:0px 0px 0px 0px; border:0px solid #323131; background:none;}
+.groupmenu_list{ float:left;width:200px; list-style:none;text-align:left; margin:0px; padding:0px;}
+.groupmenu_li{ float:left;width:250px; border-bottom:1px dotted #c1c1c1;}
+.groupmenu_link a:link,.groupmenu_link a:visited{float:left; width:190px;color:#000000; padding:8px 0px 8px 0px;text-align:left;text-decoration:none;}
+.groupmenu_link a:hover,.groupmenu_link a:active{color:#195fa4; text-align:left; text-decoration:none;}
+
+.groupmenu_linkcurrent a:link,.groupmenu_linkcurrent a:visited{float:left; width:190px;color:#195fa4; padding:8px 0px 8px 0px;text-align:left;text-decoration:none; font-weight:bold}
+.groupmenu_linkcurrent a:hover,.groupmenu_linkcurrent a:active{color:#195fa4; text-align:left; text-decoration:none;}
+
+.groupmenu_title_link_last a:link,.groupmenu_title_link_last a:visited{float:left; width:218px;color:#000000; padding:8px 0px 8px 0px;text-align:left;text-decoration:none; }
+.groupmenu_title_link_last a:hover,.groupmenu_title_link_last a:active{color:#195fa4; text-align:left; text-decoration:none;}
+
+.groupmenu_title_link_lastcurrent a:link,.groupmenu_title_link_lastcurrent a:visited{float:left; width:218px;color:#195fa4; padding:8px 0px 8px 0px;text-align:left;text-decoration:none; font-weight:bold}
+.groupmenu_title_link_lastcurrent a:hover,.groupmenu_title_link_lastcurrent a:active{color:#195fa4; text-align:left; text-decoration:none;}
+
+/*end group menu*/
+
+.record_list{float:left; width:438px; margin:1px 0px 0px 0px; padding:3px 1px 0px 1px; border-bottom:1px dotted #ddd}
+			.current_play_over{float:left; width:438px; margin:1px 0px 0px 0px; padding:3px 1px 0px 1px; background:#f2f1f1; border-bottom:1px dotted #ddd;} 
+			.current_play{float:left; width:438px; margin:1px 0px 0px 0px; padding:3px 1px 0px 1px; background:#f2f1f1 url(play.png) no-repeat right center; border-bottom:1px dotted #ddd;}
+			
+			
+			.record_list_last{float:left; width:438px; margin:1px 0px 0px 0px; padding:3px 1px 0px 1px; border-bottom:0px dotted #ddd}
+			.current_play_last_over{float:left; width:438px; margin:1px 0px 0px 0px; padding:3px 1px 0px 1px; background:#f2f1f1 ; border-bottom:0px dotted #ddd}
+			.current_play_last{float:left; width:438px; margin:1px 0px 0px 0px; padding:3px 1px 0px 1px; background:#f2f1f1 url(play.png) no-repeat right center; border-bottom:0px dotted #ddd}
+			
+.suffle_off a:link,.suffle_off a:visited{ float:right; width:29px; height:28px; background:url(suff0.png) no-repeat; outline:none}
+.suffle_off a:hover,.suffle_off a:active, .suffle_on a:link,.suffle_on a:visited{background:url(suff1.png) no-repeat; outline:none}
+
+.repeat_off a:link,.repeat_off a:visited{ float:right; width:29px; height:28px; background:url(repeat0.png) no-repeat; outline:none}
+.repeat_off a:hover,.repeat_off a:active, .repeat_on a:link,.repeat_on a:visited{background:url(repeat1.png) no-repeat; outline:none}
+
+.btn_prev a:link,.btn_prev a:visited{ float:right; width:29px; height:28px; background:url(prev0.png) no-repeat; outline:none}
+.btn_prev a:hover,.btn_prev a:active{background:url(prev1.png) no-repeat; outline:none}
+
+.btn_next a:link,.btn_next a:visited{ float:right; width:29px; height:28px; background:url(next0.png) no-repeat; outline:none}
+.btn_next a:hover,.btn_next a:active{background:url(next.png) no-repeat; outline:none}
+
+.playlist_screenshot_ctn{float:left; width:50px; height:48px; padding:2px 0px 0px 0px; margin:0px 0px 0px 0px; border:0px solid red}
+.playlist-info_ctn{float:left; width:350px; padding:0px 0px 0px 0px; margin:0px 0px 0px 0px; border:0px solid red}
+.playlist-info_record{float:left; width:400px; text-align:left; border:0px solid red}
+.playlist-download_record{float:left; text-align:left; border:0px solid red}
+
+.playlist_title_kh{font-size:10px; font-weight:bold ; color:#8c0b29}
+.playlist_title_en{font-size:11px; font-weight:bold ;color:#8c0b29 }
+
+.downloadmp3_link a:link,.downloadmp3_link a:visited{float:left;border:0px solid #FF0000; text-align:left;color:#d00209; text-decoration:none; padding:8px 0px 0px 0px}
+.downloadmp3_link a:hover,.downloadmp3_link a:active{color:#000066; text-decoration:none; font-style:italic;}

@@ -1,0 +1,20 @@
+Vagrant 
+-	Vagrant init : create vagrantfile 
+-	Vagrant init hashicorp/precise64 : create vagrantfile with base Ubuntu 64 
+-	Vagrant box add hashicorp/precise64 : add Ubuntu 64 box into base 
+
+In Vagrantfile
+-	Config.vm.box = “hashicrop/precise64”
+-	Config.vm.box_version = “1.0.0” : specify the Ubuntu box version
+-	Config.vm.box_url = “http://files.vagrantup.com/precise64.box” : specify the box url
+
+In Terminal
+-	Vagrant ssh : ssh into the machine
+-	Ctrl+D : terminate ssh session (logou)
+-	Vagrant destroy : back on your host machine, and Vagrant will terminate the use of any resources by the virtual machine (delete virtual machine)
+-	When ssh into machine you are in home/vagrant directory (different from /vagrant directory)
+
+-	vagrant@precise64:~s ls /vagrant -> see all file and directory that synced into vagrant box
+
+-	touch /vagrant/foo : create file name foo in home/vagrant directory and let check the file in host machine
+

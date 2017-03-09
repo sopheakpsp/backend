@@ -1,0 +1,13 @@
+.pager .active a{
+	background: grey;
+	color: white
+}
+
+.pager .active a:hover{
+	background: black;
+}
+
+.img-responsive{
+	min-height: 120px;
+	max-height: 120px;
+}

@@ -1,0 +1,57 @@
+@charset "utf-8";
+/* Search */
+
+#searchbox{
+	width:100%;
+	height:35px;
+	
+	margin-top:5px;
+	overflow:hidden;}
+	
+#search, #submit{
+	float:left}
+	
+#search{
+	font-family:"Kh Battambang";
+	font-style:italic;
+	font-size:14px;
+		
+	color:#999;
+
+	padding:5px 9px;
+	width:80%;
+	height:23px;
+	border:1px solid #a4c3ca;
+	box-shadow: 0.5px 0.5px 5px #F3F3F3;}
+	
+#search:focus{
+	box-shadow: 0.5px 0.5px 5px #CCC inset;}	
+
+#submit{
+	background-image:url(../img/search.png), -moz-linear-gradient(top, #FFF, #CCC 95%, #CCC 5%, #666);
+	background-image:url(../img/search.png), -webkit-linear-gradient(top, #FFF, #CCC 95%, #CCC 5%, #666);
+	background-image:url(../img/search.png), -o-linear-gradient(top, #FFF, #CCC 95%, #CCC 5%, #666);
+	background-image:;	
+	background-repeat:no-repeat;
+	background-position:center;
+	
+	border:1px solid #cacaca;
+	border-left:none;
+	box-shadow: 0.5px 0.5px 5px #F3F3F3;
+	
+	height:35px;
+	width:10%;
+	
+	}
+	
+#submit:hover{
+        background-image:url(../img/search-hover.png), -moz-linear-gradient(top, #FFF, #CCC 95%, #CCC 5%, #666);
+		background-image:url(../img/search-hover.png), -webkit-linear-gradient(top, #FFF, #CCC 95%, #CCC 5%, #666);
+		background-image:url(../img/search-hover.png), -o-linear-gradient(top, #FFF, #CCC 95%, #CCC 5%, #666);
+		background-repeat:no-repeat;
+		background-position:center;
+		
+		cursor:pointer}
+		
+#submit:active{
+        box-shadow: 0.5px 0.5px 5px #CCC inset;}

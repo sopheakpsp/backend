@@ -1,0 +1,13 @@
+.side-menu li a{
+    display: block;
+    padding: 5px 0;
+}
+.side-menu li a:hover{
+    text-decoration: underline;
+    transition: 0.1s;
+}
+.l-side ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}

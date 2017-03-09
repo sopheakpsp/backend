@@ -1,0 +1,49 @@
+.amazon_scroller{
+    padding: 0px;
+    margin: 0px;
+   width:638px !important; 
+}
+<!--.amazon_scroller_title{padding-top:4px;margin-top:-26px;width:210px;height:26px !important;position:absolute;background:url(../../bgimgs/box_shadow_scross.png) no-repeat;}-->
+.amazon_scroller .amazon_scroller_nav{
+    position: absolute;
+    width:638px !important;
+}
+.amazon_scroller .amazon_scroller_nav li{
+    cursor:pointer;
+    position: absolute;
+}
+.amazon_scroller .amazon_scroller_mask{
+    position: absolute;
+    overflow: hidden;
+    width:98% !important;
+}
+.amazon_scroller ul{
+    padding: 0px;
+    margin: 0px 0px 0px 0px;
+	border:0px solid red;
+    float: left;
+	
+}
+.amazon_scroller ul li{
+    padding: 0px;
+    margin:14px 0px 0px 48px !important;
+    list-style: none;
+    float: left;  
+	
+    text-align: center;
+    display:inline; border:0px solid #c4c2c2;
+	background:url(../bgimgs/line_saperate.jpg) no-repeat right;
+   /* border-right: 1px dashed #707070;padding-right:0px !important;*/
+}
+.amazon_scroller ul li a{
+    text-decoration: none;
+}
+.amazon_scroller ul li a amazon_scroller_title{
+    overflow:hidden;
+}
+.amazon_scroller ul li a:hover{
+    text-decoration: underline;
+}
+.amazon_scroller ul li a img{
+    border: none;
+}

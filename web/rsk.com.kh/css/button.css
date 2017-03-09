@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* Button */
+
+.btn-positive{
+	border:1px solid #cacaca;
+	-webkit-box-shadow: 0px 1px 1px #DADADA;
+	color:#1e455e;
+	padding:1px 10px 0px 10px;
+	margin:0;
+	font-family:"Kh Battambang";
+	font-size:15px;
+	background: -moz-linear-gradient(top, #F4F4F4, #E5E5E5 95%, #E5E5E5 5%, #666); /*firefox*/
+	background: -webkit-linear-gradient(top, #F4F4F4, #E5E5E5 95%, #E5E5E5 5%, #666); /*chrome & safari*/
+	background: -o-linear-gradient(top, #F4F4F4, #E5E5E5 95%, #E5E5E5 5%, #666);} /*opera*/
+	
+.btn-positive:hover{
+	cursor:pointer}
+	
+.btn-positive:active{
+	box-shadow: 0.5px 0.5px 5px #CCC inset;
+	-moz-box-shadow: 0.5px 0.5px 5px #CCC inset;}
+	
+.btn-negative{
+	border:1px solid #cacaca;
+	box-shadow: 0px 1px 1px #DADADA;
+	margin:0;
+	padding:1px 10px 0px 10px;
+	font-family:"Kh Battambang";
+	font-size:15px;
+	color:#962222;
+
+	background: -moz-linear-gradient(top, #F4F4F4, #E5E5E5 95%, #E5E5E5 5%, #666);
+	background: -webkit-linear-gradient(top, #F4F4F4, #E5E5E5 95%, #E5E5E5 5%, #666);
+	background: -o-linear-gradient(top, #F4F4F4, #E5E5E5 95%, #E5E5E5 5%, #666);
+	}	
+	
+.btn-negative:hover{
+	cursor:pointer}
+	
+.btn-negative:active{
+	box-shadow: 0.5px 0.5px 5px #CCC inset;}
+	

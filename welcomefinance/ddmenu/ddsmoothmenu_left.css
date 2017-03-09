@@ -1,0 +1,76 @@
+.ddsmoothmenu_left ul.left_submenu {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-align: left;
+}
+
+.ddsmoothmenu_left ul li.list_submenu {
+    line-height: 32px;
+    height: 32px;
+    background: url('../bgimgs/bg_menu.png') left -3px repeat-x;
+    position: relative;
+}
+    
+.ddsmoothmenu_left ul li.list_submenu a{
+    text-decoration: none;
+    padding-left: 12px;
+    display: block;
+    color:#004A99;
+}
+.ddsmoothmenu_left ul li.list_submenu a:hover,
+.ddsmoothmenu_left ul li.list_submenu a.selected,
+.ddsmoothmenu_left ul li.list_submenu a.current {
+    background: #BFE3FF;
+}
+    
+    
+    
+
+/* ======================== */
+/*      MENU LEVEL 2        */
+/* ======================== */
+
+.ddsmoothmenu_left ul li ul{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    position: absolute;
+    width: 225px; /*Whole Sub Menu Items width */
+    font-weight: normal;
+    visibility: hidden;
+    border-left: 2px solid #004A99 ;
+}
+
+.ddsmoothmenu_left ul li ul li a:link, .ddsmoothmenu_left ul li  ul li a:visited, .ddsmoothmenu_left ul li  ul li a:active{
+    color: #004A99;
+    line-height: 32px;
+    height: 32px;
+    background: url('../bgimgs/bg_menu.png') left -3px repeat-x;
+}
+
+
+.ddsmoothmenu_left ul li ul li a.selected{ /*CSS class that's dynamically added to the currently active menu items' LI A element*/
+    background: #BFE3FF;
+    color: #001b53;
+	line-height:32px;
+}
+
+
+.ddsmoothmenu_left ul li ul li a.current{ /*CSS class that's dynamically added to the currently active menu items' LI A element*/
+    background: #BFE3FF;
+    color: #001b53;
+    line-height:32px;
+}
+
+.ddsmoothmenu_left ul li ul li a:hover{
+	margin-left:0px;
+	height:32px;
+	line-height:32px;
+}
+
+
+/* Holly Hack for IE \*/
+* html .ddsmoothmenu_left ul li { float: left; height: 1%; }
+* html .ddsmoothmenu_left ul li a { height: 1%; }
+/* End */

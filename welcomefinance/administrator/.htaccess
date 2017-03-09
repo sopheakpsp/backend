@@ -1,0 +1,6 @@
+# password protect everything except a single file
+
+ AuthName "Username and password required"
+ AuthUserFile "/home/greencmf/public_html/administrator/.htpasswd"
+ Require valid-user
+ AuthType Basic

@@ -1,0 +1,216 @@
+.ddsmoothmenu{
+    width: 941px;
+    float: left;
+    height: 41px;
+    border:0px solid red;
+	padding:0px 0px 0px 0px;
+	
+}
+
+.ddsmoothmenu ul{
+    z-index:10;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    border:0px solid red;
+    float: left;
+}
+
+/*Top level list items*/
+.ddsmoothmenu ul li{
+    position: relative;
+    display: inline;
+    float: left;
+   /* height: 34px;*/
+    border:0px solid yellow;
+    padding:0px 0px 0px 0px;
+	margin:0px 0px 0px 0px;
+    z-index:3;
+}
+
+/*Top level menu link items style SIMPLE SIMPLE SIMPLE SIMPLE SIMPLE SIMPLE SIMPLE SIMPLE SIMPLE SIMPLE SIMPLE SIMPLE SIMPLE SIMPLE*/
+.ddsmoothmenu ul li a{
+    float:left;
+    display: block;
+    /*background: url(menu_seperate.png) no-repeat right top;*/
+    behavior: url(png_fix/iepngfix.htc);
+	text-decoration:none;
+	margin-left:1px;
+}
+
+
+.ddsmoothmenu ul li a span.middle{
+    float:left;
+    display: block;
+    color: #fff;
+	font-weight:bold;
+    text-decoration: none;
+    width:auto; height:29px;
+    padding:12px 37px 0px 36px;
+    margin: 0px 0px 0px 0px;
+    border:0px solid yellow;
+    background: url(tap_center.png) left repeat-x;
+    behavior: url(png_fix/iepngfix.htc)
+}
+.ddsmoothmenu ul li a span.left{
+    float:left;
+    display: block;
+    text-decoration: none;
+    /*width:25px; height:39px;*/
+	width:7px; height:41px;
+    padding:0px 0px 0px 0px;
+    border:0px solid #000;
+    background: url(tap_left.png) right no-repeat;
+}
+.ddsmoothmenu ul li a span.right{
+    float:left;
+    display: block;
+    text-decoration: none;
+    /*width:25px; height:39px;*/
+	width:7px; height:41px;
+    padding:0px 0px 0px 0px;
+    border:0px solid #000;
+    background: url(tap_right.png) left no-repeat;
+}
+
+/*FOR SIMPLE RECORD ACTION :SELECTED, CURRENT, HOVER*/
+.ddsmoothmenu ul li a.selected, .ddsmoothmenu ul li a.current, .ddsmoothmenu ul li a:hover{
+    float:left;
+    display: block;
+    /*background: url(menu_seperate.png) no-repeat right top;*/
+    behavior: url(png_fix/iepngfix.htc)
+	margin-left:1px;
+
+}
+.ddsmoothmenu ul li a.selected span.middle, .ddsmoothmenu ul li a.current span.middle, .ddsmoothmenu ul li a:hover span.middle{
+    float:left;
+    display: block;
+    color:#851a0b;
+    text-decoration: none;
+    width:auto; height:29px;
+    padding:12px 37px 0px 36px;
+    margin: 0px 0px 0px 0px;
+    border:0px solid yellow;
+    background: url(current_tab_middle.png) left repeat-x;
+    behavior: url(png_fix/iepngfix.htc)
+}
+.ddsmoothmenu ul li a.selected span.left, .ddsmoothmenu ul li a.current span.left, .ddsmoothmenu ul li a:hover span.left{
+    float:left;
+    display: block;
+    text-decoration: none;
+    width:7px; height:41px;
+    padding:0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+    border:0px solid #fff;
+    text-align: center;
+    background: url(current_tab_left.png) left no-repeat;
+}
+.ddsmoothmenu ul li a.selected span.right, .ddsmoothmenu ul li a.current span.right, .ddsmoothmenu ul li a:hover span.right{
+    float:left;
+    display: block;
+    text-decoration: none;
+    width:7px; height:41px;
+    padding:0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+    border:0px solid #fff;
+    text-align: center;
+    background: url(current_tab_right.png) right no-repeat;
+}
+/* END Top level menu link items style SIMPLE SIMPLE SIMPLE SIMPLE SIMPLE SIMPLE SIMPLE SIMPLE SIMPLE SIMPLE SIMPLE SIMPLE SIMPLE SIMPLE*/
+
+
+* html .ddsmoothmenu ul li a{ /*IE6 hack to get sub menu links to behave correctly*/
+                              display: inline-block;
+}
+
+* html .ddsmoothmenu ul li a.last{ /*IE6 hack to get sub menu links to behave correctly*/
+                                   display: inline-block;
+}
+
+
+/*1st sub level menu*/
+.ddsmoothmenu ul li ul{
+position: absolute;
+left: 0;
+display: none; /*collapse all sub menus to begin with*/
+visibility: hidden;
+padding:0px;
+}
+
+/*Sub level menu list items (undo style from Top level List Items)*/
+.ddsmoothmenu ul li ul li{
+display: list-item;
+float: left;
+padding:0px;
+background:none;
+}
+
+/*All subsequent sub menu levels vertical offset after 1st level sub menu */
+.ddsmoothmenu ul li ul li ul{
+top: 0;
+}
+
+/* Sub level menu links style */
+.ddsmoothmenu ul li ul li a{
+width: 160px; /*width of sub menus*/
+height:auto;
+margin: 0px;
+padding:5px;
+border-left: 1px solid #eeeeee;
+border-right: 1px solid #eeeeee;
+border-bottom: 1px solid #eeeeee;
+background:#77100c;
+text-align:left;
+color: #fff;
+text-decoration:none;
+}
+
+
+.ddsmoothmenu ul li  ul li a.selected, .ddsmoothmenu ul li ul li a.current, .ddsmoothmenu ul li ul li a:hover{ 
+/*CSS class that's dynamically added to the currently active menu items' LI A element*/
+width: 160px; /*width of sub menus*/
+height:auto;
+margin: 0px;
+padding:5px;
+border-left: 1px solid #eeeeee;
+border-right: 1px solid #eeeeee;
+border-bottom: 1px solid #eeeeee;
+background:#8d0000;
+text-align:left;
+color: #ead54b;
+font-weight:bold;
+}
+
+/* Holly Hack for IE \*/
+* html .ddsmoothmenu{height: 1%;} /*Holly Hack for IE7 and below*/
+
+
+/* ######### CSS classes applied to down and right arrow images  ######### */
+
+.downarrowclass{
+/*    position: absolute;*/
+    margin:8px 0px 0px -11px;
+    visibility: hidden;
+}
+
+.rightarrowclass{
+    position: absolute;
+    top: 6px;
+    right: 0px;
+    visibility: hidden;
+}
+
+/* ######### CSS for shadow added to sub menus  ######### */
+
+.ddshadow{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 0;
+    background: silver;
+}
+
+.toplevelshadow{ /*shadow opacity. Doesn't work in IE*/
+                 opacity: 0.8;
+}

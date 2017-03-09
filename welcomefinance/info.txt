@@ -1,0 +1,9 @@
+db Name: layouts_cam_ricedb
+username: layouts_cmrice
+password:cqBH!@mA@y#$
+
+
+
+
+user: admin
+pass:cam_ricecqBH!@mA@y#$2014

@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document */
+.detail{
+	width:95%;
+	padding:10px;
+	background:#f1f1f1;
+	border-radius:10px;
+	-moz-border-radius:10px;
+	border:1px solid #cacaca;
+	box-shadow: 0.5px 0.5px 5px #F3F3F3;
+	margin-top:15px}
+
+.detail th{
+	text-align:right;
+	width:170px}
+	
+.detail td{
+	padding-left:50px;
+	border-bottom:1px dashed #999}

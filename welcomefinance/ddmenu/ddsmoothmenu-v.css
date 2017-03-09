@@ -1,0 +1,153 @@
+.ddsmoothmenu-v ul{
+    margin: 0px;
+    padding: 0px;
+    width: 246px; /* Main Menu Item widths */
+    list-style-type: none;
+    
+}
+
+.ddsmoothmenu-v ul li{
+    position: relative;
+}
+
+/* Top level menu links style */
+.ddsmoothmenu-v ul li a{
+	margin:0px;
+    display: block;
+    color: #000;
+	text-align:left;
+	padding-left:18px;
+    text-decoration: none;
+    border-bottom: 1px solid #d6d6d6;
+	width:228px;
+	height:36px;
+	line-height:36px;
+
+}
+.ddsmoothmenu-v ul li a.noline{
+    display: block;
+    text-decoration: none;
+    border-bottom: 1px solid #fff;
+    width: 212px;
+
+    /*background: #3f006c url(menubg.png) 5px 8px no-repeat;*/
+}
+.ddsmoothmenu-v ul li a.selected{ /*CSS class that's dynamically added to the currently active menu items' LI A element*/
+    color: #001b53;
+    border-bottom: 1px solid #d6d6d6;
+	padding-left:0px;
+	background: url(bullet.png) no-repeat center right;
+	width:228px;
+	padding-left:18px;
+	height:36px;
+	line-height:36px;
+	font-weight:bold;
+}
+
+.ddsmoothmenu-v ul li a.current{
+    color: #001b53;
+    background: url(bullet.png) no-repeat center left;
+    border-bottom: 1px solid #d6d6d6;
+	width:228px;
+	padding-left:18px;
+	height:36px;
+	line-height:36px;
+	font-weight:bold;
+}
+
+.ddsmoothmenu-v ul li.noseperate a{
+   color: #000;
+   border-bottom: 0px solid blue;
+   width:244px;
+   height:36px;
+   line-height:36px;
+
+}
+
+.ddsmoothmenu-v ul li.noseperate a:hover{
+   color: #001b53;
+   font-weight:bold;
+   border-bottom: 0px solid blue;
+   background: url(bullet.png) no-repeat center left;
+   width:228px;
+   padding-left:18px;
+   height:36px;
+   line-height:36px;
+
+}
+
+.ddsmoothmenu-v ul li.noseperate a:selected{
+   line-height:36px;
+   height:36px;
+   width:228px;
+   padding-left:18px;
+   font-weight:bold;
+   color: #001b53;
+   background: url(bullet.png) no-repeat center left;
+}
+
+
+/*for mouse over*/
+.ddsmoothmenu-v ul li a:hover{
+    color: #001b53;
+	background: url(bullet.png) no-repeat center left;
+    border-bottom: 1px solid #d6d6d6;
+	font-weight:bold;
+	width:228px;
+	padding-left:18px;
+	height:36px;
+	line-height:36px;
+}
+.ddsmoothmenu-v ul li ul{
+    position: absolute;
+    width: 244px; /*Whole Sub Menu Items width */
+	height:36px;
+    font-weight: normal;
+    visibility: hidden;
+	border:0px solid #fff;
+	background:#eeeeee;
+}
+
+.ddsmoothmenu-v ul li ul li a:link, .ddsmoothmenu-v ul li  ul li a:visited, .ddsmoothmenu-v ul li  ul li a:active{
+    color: #000000;
+    background: #eeeeee;
+    border-bottom: 1px solid #d6d6d6;
+	padding-left:18px;
+	width:228px;
+	height:36px;
+	line-height:36px;
+}
+
+
+.ddsmoothmenu-v ul li ul li a.selected{ /*CSS class that's dynamically added to the currently active menu items' LI A element*/
+                                        background: #eeeeee;
+										width:228px;
+										padding-left:18px;
+                                        color: #001b53;
+										line-height:36px;
+}
+
+
+.ddsmoothmenu-v ul li ul li a.current{ /*CSS class that's dynamically added to the currently active menu items' LI A element*/
+                                       background: #eeeeee;
+                                       color: #001b53;
+									   line-height:36px;
+										width:228px;
+										padding-left:18px;
+}
+
+.ddsmoothmenu-v ul li ul li a:hover{
+    color: #001b53;
+	margin-left:0px;
+	padding-left:18px;
+	border-bottom:1px solid #d6d6d6;
+	width:228px;
+	height:36px;
+	line-height:36px;
+}
+
+
+/* Holly Hack for IE \*/
+* html .ddsmoothmenu-v ul li { float: left; height: 1%; }
+* html .ddsmoothmenu-v ul li a { height: 1%; }
+/* End */

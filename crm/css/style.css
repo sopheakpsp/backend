@@ -1,0 +1,245 @@
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+.nopadding {
+   padding: 0 !important;
+   margin-right: 10px;
+}
+body{
+    font-size:14px;
+}
+h2{
+    font-size: 18px;
+}
+h4{
+    font-size: 14px;
+}
+.user_image{
+	width: 62px;
+	height: 62px;
+}
+
+/*Style for Photo Library Modal*/
+.modal-dialog{
+	width:50%
+}
+.img-thumbnail{
+	max-width: 120px;
+	max-width: 120px;
+}
+
+.modal_thumbnails{
+	max-width: 120px;
+	max-width: 120px;
+}
+
+.width-haft{
+	width:50%;
+}
+
+.width-30{
+	width: 30%
+}
+
+.file{
+	height: 150px;
+}
+
+.form_error{
+	color: red;
+	font-weight: bold;
+}
+
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}
+
+.add{
+	padding: 5%
+}
+
+hr{
+    margin:5px 0;
+}
+
+.center{
+    text-align: center;
+}
+
+.font{
+    font-size: 12px;
+}
+
+.label{
+    font-size: 11px;
+}
+
+.property-display{
+    height: 420px;
+}
+
+.capital{
+    text-transform:capitalize;
+}
+th{
+    vertical-align: middle;
+}
+
+.box{
+    border: 1px solid #000000;
+    width: 100%;
+    height: 200px
+}
+.table-borderless tbody tr td, .table-borderless tbody tr th, .table-borderless thead tr th {
+    border: none;
+}
+
+.table-borderless{
+    margin: 0;
+    padding: 0
+}
+
+.status{
+background: #eee;
+  margin: 1.5em 0;
+  border-radius: 1px 1px;
+  font-size: 0.9em
+}
+.available{
+    border-left: 5px solid #337ab7;
+    color: #337ab7
+}
+.sold{
+    border-left: 5px solid #d9534f;
+    color:#d9534f ;
+}
+.rent{
+    border-left: 5px solid #f0ad4e;
+    color: #f0ad4e;
+}
+.status>p{
+    font-size: 1.8em;
+    padding: 8px 15px;
+}
+
+.tage{
+    position: absolute;
+    top: 15px;
+    right: 30px
+}
+
+.label{
+    opacity: 1
+}
+
+.grey{
+    background: #eee;
+}
+
+.tp{
+    position: absolute;
+    right: 30px;
+    color: #2c2c2c
+}
+
+.tp1{
+    top: 35px;
+}
+.tp2{
+    top: 55px;
+}
+.tp3{
+    top: 75px
+}
+.tp4{
+    top: 95px
+}
+
+.customLabel {
+  position: absolute;
+  top: 35px;
+  right: 30px;
+  text-align: right;
+  font-size: 0.9em;
+  font-weight: bold;
+  overflow: hidden;
+}
+.customLabel>div {
+  background: #f0ad4e;
+  margin-bottom: 3px;
+  padding: 1px 5px;
+  border-radius: 2px;
+  float: right;
+  clear: both;
+}
+
+.no-border{
+  font-size: 0.9em
+}
+
+.no-border:focus{
+  outline: none;
+}
+
+
+
+#custom-search-input {
+        margin:0;
+        margin-top: 10px;
+        padding: 0;
+
+    }
+ 
+#custom-search-input .search-query {
+    padding-right: 3px;
+    padding-right: 4px \9;
+    padding-left: 3px;
+    padding-left: 4px \9;
+    /* IE7-8 doesn't have border-radius, so don't indent the padding */
+
+    margin-bottom: 0;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+}
+
+#custom-search-input button {
+    border: 0;
+    background: none;
+    /** belows styles are working good */
+    padding: 2px 5px;
+    margin-top: 2px;
+    position: relative;
+    left: -28px;
+    /* IE7-8 doesn't have border-radius, so don't indent the padding */
+    margin-bottom: 0;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    color:#D9230F;
+}
+
+.search-query:focus + button {
+    z-index: 3;   
+}
+
+.float-left{
+  float: left;
+}

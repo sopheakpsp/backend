@@ -1,0 +1,131 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+    font-family: "Kh Battambang";
+    src: url("../font/Kh-Battambang.eot");
+	src: local("Kh Battambang"), url("../font/Kh-Battambang.ttf") format("truetype");}
+	
+select{
+	font-family:"Kh Battambang";
+	font-size:15px;
+	
+	width:100px;
+	border:none}
+a{
+	text-decoration:none}
+	
+.a{
+	text-decoration:none;
+	text-decoration:none;
+	padding:1px 5px;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	color:#3A3A3A}
+
+.a:hover{
+	background:#09F;
+	color:#FFF;}
+
+ul{
+	margin:0px 0 0 30px;
+	padding:0px}
+ul li a{
+	text-decoration:none;
+	padding:1px 5px;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	color:#3A3A3A}
+	
+ul li a:hover{
+	background:#09F;
+	color:#FFF;}
+	
+.li{
+	margin:0}
+	
+p{
+	font-weight:normal;
+	margin:0;
+	font-size:15px;
+	margin:10px}
+
+h5{
+	font-weight:normal;
+	margin:0;
+	margin:10px}
+	
+h3{
+	font-size:20px;
+	margin:10px;
+	color:#06C;
+	text-decoration:underline}
+
+h1{
+	margin:10px}	
+
+img{
+	margin:5px}
+	
+th{
+	font-weight:bold}
+	
+body{
+	font-family:"Kh Battambang";
+	color:#3A3A3A;
+	margin:0;
+	font-size:15px;}
+
+	
+.page{
+	width:100%;
+	margin:0;}
+	
+.header{
+	width:100%;
+	text-align:center;
+	background:#f1f1f1;
+	border-bottom:1px solid #cacaca;
+	box-shadow: 0.5px 0.5px 5px #F3F3F3;
+	
+	position:relative}
+	
+.container{
+	width:100%;}
+	
+.left{
+	width:auto;
+	float:left;}
+	
+.right{
+	width:75%;
+	-moz-border-shadow: 0.5px 0px 5px #F3F3F3;
+	min-height:650px;
+	border-left:1px solid #cacaca;	
+	padding:0px 15px 15px 15px;
+	float:right;}
+
+.right-topleft{
+	width:55%;
+	height:50px;
+	float:left;
+	/*border:1px solid #096;*/}	
+
+.right-topright{
+	width:40%;
+	height:50px;
+	float:right;
+	/*border:1px solid #096;*/
+	text-align:right}	
+
+.footer{
+	width:100%;
+	border-top:1px solid #cacaca;}
+	
+
+
+.clear{
+	clear:both}
+	
+

@@ -1,0 +1,18 @@
+.user_image{
+	width: 62px;
+	height: 62px;
+}
+
+/*Style for Photo Library Modal*/
+.modal-dialog{
+	width:90%
+}
+.img-thumbnail{
+	max-width: 120px;
+	max-width: 120px;
+}
+
+.modal_thumbnails{
+	max-width: 120px;
+	max-width: 120px;
+}

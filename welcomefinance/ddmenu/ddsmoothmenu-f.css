@@ -1,0 +1,68 @@
+.ddsmoothmenu-f{
+    width: 80%;
+    border:0px solid red;
+    padding-right: 20%;
+}
+
+.ddsmoothmenu-f ul{
+    z-index:5;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+/*Top level list items*/
+.ddsmoothmenu-f ul li{
+    position: relative;
+    display: inline;
+    float: right;
+    border:0px solid yellow;
+    padding-left:0px;
+}
+
+/*Top level menu link items style*/
+.ddsmoothmenu-f ul li a{
+    display: block;
+    color: #010870;
+    text-decoration: none;
+    text-align:center;
+    padding:0px 5px 0px 5px;
+    border-left:1px solid #010870;
+}
+.ddsmoothmenu-f ul li a.noline{
+    display: block;
+    color: #010870;
+    text-decoration: none;
+    text-align:center;
+    padding:0px 5px 0px 5px;
+    border:0px solid black;
+}
+
+* html .ddsmoothmenu-f ul li a{ /*IE6 hack to get sub menu links to behave correctly*/
+                                display: inline-block;
+}
+
+.ddsmoothmenu-f ul li a.selected{ /*CSS class that's dynamically added to the currently active menu items' LI A element*/
+                                  color: #ff0033;
+                                  line-height: 12px;
+                                  text-decoration: underline;
+}
+
+.ddsmoothmenu-f ul li a.current{ /*CSS current menu*/
+                                 color: #ff0033;
+                                 line-height: 12px;
+                                 text-decoration: underline;
+}
+.ddsmoothmenu-f ul li a.noline.current{ /*CSS current menu*/
+
+                                        border-left:0px solid #fff;
+                                        color: #ff0033;
+                                        line-height: 12px;
+                                        text-decoration: underline;
+}
+
+.ddsmoothmenu-f ul li a:hover{
+    color: #ff0033;
+    line-height: 12px;
+    text-decoration: underline;
+}

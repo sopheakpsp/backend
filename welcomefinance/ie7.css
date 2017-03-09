@@ -1,0 +1,4 @@
+.whol_container{float:left; width:986px; margin:0px; padding:10px 22px 10px 18px; background:url(bgimgs/bg_page_shadow.png) repeat-y}
+
+.gallery_inner{float:left; width:248px; height:227px;margin-top:5px; padding:0px 7px 0px 8px; text-align:center !important;}
+.gallery_cover{float:left; width:248px; margin-left:-248px; height:227px; position:absolute; z-index:10;background:url(bgimgs/gallery_cover.png) no-repeat center top;}

@@ -1,0 +1,150 @@
+<div style="width:980px; margin:0 auto; height:238px; overflow:hidden; border:0px solid;"><!--whole footer-->
+
+    <div style="float:left; width:218px; margin-top:13px;"><!--whole useful link-->
+      <div style="float:left; width:218px; height:32px; padding-bottom:2px; line-height:30px; background:url(bgimgs/line_use.png) repeat-x bottom;"><!--title-->
+         <span style="font-family:Arial, Helvetica, sans-serif; font-size:16px;  font-style:italic; color:#008340; margin-left:2px;">Useful Link</span>
+      </div><!--end title-->
+      <div style='float:left; height:35px; width:218px; word-break:break-all; line-height:35px; background:url(bgimgs/line.png) no-repeat bottom;'><a class='m3' href='http://www.nbc.org.kh' target='_blank'>NBC</a></div><div style='float:left; height:35px; width:218px; word-break:break-all; line-height:35px; background:url(bgimgs/line.png) no-repeat bottom;'><a class='m3' href='http://www.nbc.org.kh/cafiu/index.html' target='_blank'>CAFIU</a></div><div style='float:left; height:35px; width:218px; word-break:break-all; line-height:35px; background:url(bgimgs/line.png) no-repeat bottom;'><a class='m3' href='http://www.cma-network.org' target='_blank'>CMA</a></div><div style='float:left; height:35px; width:218px; word-break:break-all; line-height:35px; background:url(bgimgs/line.png) no-repeat bottom;'><a class='m3' href='http://www.creditbureaucambodia.com' target='_blank'>CBC</a></div>       </div><!--end whole useful link-->
+       
+        <div style="float:left; width:475px; margin-top:13px; margin-left:36px;"><!--Head office-->
+      <div style="float:left; width:475px; height:32px; padding-bottom:2px; line-height:30px; background:url(bgimgs/line_use.png) repeat-x bottom;"><!--title-->
+         <span style="font-family:Arial, Helvetica, sans-serif; font-size:16px;  font-style:italic; color:#008340; margin-left:2px;">Green Central Micro Finance Ltd.,</span>
+      </div><!--end title-->
+      <a href='?page=detail&ctype=article&id=577&lg=en'><img src='imgs/577/228x120_Head_Office.jpg' width='141' height='160' border='0' style='float:left; margin-top:10px; border:1px solid #9d9e9e' /></a><div style='margin-left:10px; margin-top:10px; float:left; line-height:16px; width:282px; word-break:break-all; font-size:12px; font-family:Arial, Helvetica, sans-serif;'><span style="font-size: 14px;"><span style="font-family: Comic Sans MS;"><b>Head Office :<br />
+</b><br />
+Tel&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : 023 994 455 / 060 666 565 <br />
+Fax&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : 023 994 477<br />
+E-mail&nbsp;&nbsp;&nbsp; : info@greencmf.com<br />
+Address : #640 E,F, Street 271, Sangkat Psar Deum Thkov, Khan Chamkamorn, Phnom Penh.</span></span></div>         <div style="float:left; width:334px; margin-top:-30px; margin-left:155px; height:28px; line-height:28px; font-family:Arial, Helvetica, sans-serif; font-size:12px;">
+           <div style="float:left; height:22px; line-height:22px;">Follow  Us:</div>
+            <div class='shered'><a href='https://www.facebook.com/greencmf' target='_new' target='_blank'><img src='imgs/580/b_facebook.png' alt='' class='imagenews_share' /></a></div><div class='shered'><a href='https://www.twitter.com' target='_new' target='_blank'><img src='imgs/579/b_twitter.png' alt='' class='imagenews_share' /></a></div><div class='shered'><a href='https://www.youtube.com' target='_new' target='_blank'><img src='imgs/578/b_youtube.png' alt='' class='imagenews_share' /></a></div>         </div>
+       </div><!--Head office-->
+       
+       
+        <div style="float:left; width:230px; margin-top:13px; margin-left:20px;"><!--vedio clip-->
+      <div style="float:left; width:230px; height:32px; padding-bottom:2px; line-height:30px; background:url(bgimgs/line_use.png) repeat-x bottom;"><!--title-->
+         <span style="font-family:Arial, Helvetica, sans-serif; font-size:16px;  font-style:italic; color:#008340; margin-left:2px;">Video Clip</span>
+      </div><!--end title-->
+     <style type="text/css">
+    #imageBox {
+    border: 0 solid #FF0000;
+    float: left;
+    min-height: 160px;
+    overflow: hidden;
+    position: relative;
+    width: 230px;
+	border:0px solid red;
+}
+    #imageBoxInside {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    min-height: 207px;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+	border:0px solid red;
+    z-index: 0;
+}
+</style>
+<script>
+    function moveToNext()
+    {
+        var move_from = $('#imageBox').offset().left;
+        var num_img = $('#imageBoxInside img').size() - 5;
+        var current_top = $('#imageBoxInside').offset().left;
+        if (current_top >= (move_from - (num_img * 60)))
+            $("#imageBoxInside").animate(
+                    {"top": "-=45px"},
+            "slow");
+    }
+
+    function moveToPrevious()
+    {
+        var move_from = $('#imageBox').offset().top;
+        var current_top = $('#imageBoxInside').offset().top;
+        if (current_top < move_from)
+            $("#imageBoxInside").animate(
+                    {"top": "+=45px"},
+            "slow");
+    }
+
+//    function loadXMLFile(url) {
+//        if (window.XMLHttpRequest)
+//        {// code for IE7+, Firefox, Chrome, Opera, Safari
+//            xmlhttp = new XMLHttpRequest();
+//        }
+//        else
+//        {// code for IE6, IE5
+//            xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+//        }
+//        xmlhttp.open("GET", url, false);
+//        xmlhttp.send();
+//        xmlDoc = xmlhttp.responseXML;
+//        return xmlDoc;
+//    }//end
+</script>
+<div style="float:left; width:230px; height:160px; border:0px solid red; margin:10px 0 0 0px;">
+<div style="width:230px; height:160px; float:right; overflow:hidden;  border:0px solid red; ">
+    <div id="player3" style="clear:both;"></div>
+    <script> 
+        xmlDoc = loadXMLFile("playlists/68.xml");
+        var items = xmlDoc.getElementsByTagName("item");
+        num_plish = items.length;
+        a = items[0].getElementsByTagName("plist")[0].childNodes[0].nodeValue;
+        id = items[0].getElementsByTagName("mediaid")[0].childNodes[0].nodeValue;
+        jwplayer_view('230', '160', 'player3', 'false', 'bottom', 'false', '', '68.xml', 'id/a');
+    </script>
+</div>
+</div>       </div><!--end vedio clip-->
+      
+
+</div><!--end whole footer-->
+<div style="width:980px; margin:0 auto; height:80px; border:0px solid red;"><!--whole bottom footer-->
+   <div style="float:left; width:720px; height:80px;">
+      <div style="float:left; width:650px; margin-top:0px; background:url(bgimgs/line_title.png) no-repeat bottom left; margin-bottom:5px;">
+        <span class='footer_menu_link_current'><div style='float:left; text-align:center; margin:6px 10px 0px 0px;'><div style='float:left;background:none;height:30px;line-height:30px !important; border:0px solid red;'><a footer_menu_link_current href='?page=front&amp;lg=en' ><font class='en size15_en lineheight15_en' style='display:block; height:30px;line-height:30px !important; '>Home</font></a></div></div></span><span class='footer_menu_link'><div style='float:left; text-align:center; margin:6px 10px 0px 0px;'><div style='float:left;background:none;height:30px;line-height:30px !important; border:0px solid red;'><a footer_menu_link href='javascript:voide(0)&amp;lg=en' ><font class='en size15_en lineheight15_en' style='display:block; height:30px;line-height:30px !important; '>Our Profile</font></a></div></div></span><span class='footer_menu_link_last'><div style='float:left; text-align:center; margin:6px 10px 0px 0px;'><div style='float:left;background:none;height:30px;line-height:30px !important; border:0px solid red;'><a footer_menu_link_last href='javascript:voide(0)&amp;lg=en' ><font class='en size15_en lineheight15_en' style='display:block; height:30px;line-height:30px !important; '>Contact Us</font></a></div></div></span>     </div>	
+     
+    <div style="float:left; width:650px;">
+        <span class="en size12_en white">
+        &copy;&nbsp;Copyrights 2014,&nbsp;
+        <span class="enen"><a href="" style="text-decoration:none; font-weight:600; color:#fff;">Green Microfinance</a></span>&nbsp;All rights reserved        <br />Designed & Hosting By        <span en> <a href="http://www.servingweb.com" target="a" style="text-decoration:none; font-weight:600; color:#fff; font-style:italic;">Serving Web Solution</a></span>.
+        </span> 
+   </div>
+ </div>
+ <div style="float:left; width:258px; height:80px; border:0px solid;">
+    <div class="faq_en"><!--faq-->
+       <a class="m2" href="?page=faq&lg=en">
+         <img src="bgimgs/faq.png" width="23" height="23" border="0" />
+        <span style=" text-align:center; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#fff;">
+           FAQ's        </span>
+       </a>
+    </div><!--end faq-->
+    <div class="sitemap_en"><!--Site Map-->
+       <a class="m2" href="?page=sitemap&lg=en">
+         <img src="bgimgs/site_map.png" width="26" height="23" border="0" />
+        <span style=" text-align:center; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#fff;">
+           Sitemap        </span>
+       </a>
+    </div><!--End Site Map-->
+      <div class="shared_en"><!--Share-->
+      
+        <!-- ADDTHIS BUTTON BEGIN -->
+		<script type="text/javascript">
+        addthis_pub = 'wdraco';
+        addthis_brand = 'JTricks.com';
+        addthis_options = 'favorites, email, delicious, myspace, facebook, furl, reddit, google, live, twitter';
+        </script>
+        <a class="m2" href="http://www.addthis.com/bookmark.php" onmouseover="return addthis_open(this, '', '[URL]', '[TITLE]')" onmouseout="addthis_close()" onclick="return addthis_sendto()">
+        <img src="bgimgs/shared.png" width="26" height="23" border="0" />
+        <div style='color:#fff; font-size:12px; text-decoration:none;'>Share</div>        </a>
+        <script type="text/javascript" src="http://s7.addthis.com/js/152/addthis_widget.js"></script>
+        <!-- /ADDTHIS BUTTON BEGIN -->
+
+      <!-- <a class="m2" href="#">
+         <img src="bgimgs/site_map.png" width="26" height="23" border="0" />
+        <span style=" text-align:center; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#fff;">Shares</span>
+       </a>-->
+    </div><!--Site Map-->
+   
+ </div>
+</div><!--end whole bottom footer-->

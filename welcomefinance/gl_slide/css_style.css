@@ -1,0 +1,178 @@
+@charset "utf-8";
+/* CSS Document */
+
+.front_carousel {
+	float:left;
+	padding:0px;
+	margin:0px;
+	width: 560px;
+	height:286px;
+	background:none;
+	overflow:hidden;
+	border:0px solid red;
+}
+.front_carousel ul {
+	float:left;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: block;
+}
+.front_carousel li {
+	float:left;
+	background-color: none;
+	padding: 0px;
+	width:560px;
+	height:286px;
+	margin:0px;
+	display: block;
+	border:0px solid red;
+}
+.clearfix {
+	float: none;
+	clear: both;
+}
+.prev_1 {
+	position:absolute;
+	z-index:1;
+	float: left;
+	margin-top: 130px;
+	margin-left: 2px;
+	
+}
+.next_1 {
+	position:absolute;
+	z-index:1;
+	float: left;
+	margin-top: 130px;
+	margin-left:702px;
+	margin-right: 0px;
+}
+.pagination {
+	float:left;
+	height:22px; 
+	margin:0px 0px 0px 5px; 
+	text-align: left;
+	border:0px solid red;
+}
+.pagination a {
+	float:left;
+	color:#000000;
+	background:url(bullet.png) no-repeat;
+	text-align:center;
+	width: 22px;
+	height: 22px;
+	line-height:22px;
+	margin:4px;
+	display: inline-block;
+	border:none;
+}
+.pagination a.selected {
+	float:left;
+	text-align:center;
+	width: 22px;
+	height: 22px;
+	line-height:22px;
+	margin:4px;
+	color:#ffffff;
+	background:url(bullet_active.png) no-repeat;
+	border:none;
+	/*cursor: default;*/
+}
+.pagination a span {/*for show number*/
+	display:yes;
+}
+
+/*=========Gallery slide========*/
+.gl_carousel {
+	float:left;
+	padding:0px;
+	width:230px;
+	height:210px;
+	background:none;
+	overflow:hidden;
+	margin:23px 0px 0px 4px;
+}
+.gl_carousel ul {
+	float:left;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: block;
+}
+.gl_carousel li {
+	float:left;
+	background: none;
+	width:153px;
+	height:153px;
+	overflow:hidden;
+	margin:0px 0px 0px 0px;
+	display: block;
+}
+.prev_2 {
+	position:absolute;
+	z-index:1;
+	width:9px;
+	height:15px;
+	float: left;
+	margin-top:120px;
+	margin-left:10px;
+	background:url(btn_prev.png) no-repeat center right;
+}
+.next_2 {
+	position:absolute;
+	width:9px;
+	height:15px;
+	z-index:1;
+	float: left;
+	margin-top: 120px;
+	margin-left:220px;
+	background:url(next_btn.png) no-repeat center left;
+}
+
+/*====Our partner====*/
+.partner_carousel {
+	float:left;
+	padding:0px;
+	width:710px;
+	height:100px;
+	background:none;
+	overflow:hidden;
+	border:0px solid red;
+	margin:20px 0px 0px 6px;
+}
+.partner_carousel ul {
+	float:left;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: block;
+}
+.partner_carousel li {
+	float:left;
+	height:91px;
+	background: none;
+	margin:4px 4px 0px 4px;
+	display: block;
+}
+.prev_3 {
+	position:absolute;
+	z-index:1;
+	width:15px;
+	height:26px;
+	float: left;
+	margin-top: 56px;
+	margin-left:4px;
+	background:url(left.png) no-repeat center right;
+}
+.next_3 {
+	position:absolute;
+	width:15px;
+	height:26px;
+	z-index:1;
+	float: left;
+	margin-top: 56px;
+	margin-left:704px;
+	background:url(right.png) no-repeat center left;
+}
+

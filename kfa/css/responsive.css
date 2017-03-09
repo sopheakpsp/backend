@@ -1,0 +1,289 @@
+body{
+    width: 100%;
+}
+.property{
+    margin-right: 2%;
+}
+
+.property-img{
+    
+}
+
+.maps{
+    margin-right: 20px;
+}
+
+.service-menu-footer{
+    width: 190px;
+}
+
+.about-menu-footer {
+    margin-right: 10px;
+}
+
+nav>ul>li>ul{
+}
+
+@media screen and (max-width:1000px){
+    
+    #columns { 
+        column-width: 50%;
+        column-gap: 0px;
+        -webkit-column-count: 1; /* Chrome, Safari, Opera */
+        -moz-column-count: 1; /* Firefox */
+        column-count: 1; 
+    }
+    
+	#columns figure { width: 50%; }
+    
+    .logo{
+        width: 100%;
+        text-align: center;
+    }
+    
+    .left{
+        float: none
+    }
+    
+    header .social{
+        position:absolute; top:0px; right: 10px;  
+        display: none
+    }
+    
+    nav{
+        height: 80px;
+    }
+    
+    nav>ul>li:hover > ul{
+        top:135px;
+    }
+    
+    .maps{
+        display: none
+    }
+    
+    .endtext{
+        text-align: center
+    }
+    .about-menu-footer {
+    margin-right: 15px;
+    }
+    .service-menu-footer{
+        width: 250px;
+    }
+    .contact-footer {
+        width: 150px;
+    }
+    
+    .r-side{
+        display: none
+    }
+    .right-section{
+        width: 60%
+    }
+    .property{
+    width: 30%;
+    margin-right: 12px;
+    }
+    
+    .property-property{
+    width: 35%;
+    }
+}
+
+@media screen and (max-width:900px){
+    .property-property{
+        width: 45%;
+    }
+}
+
+@media screen and (max-width:450px){ /*450px*/
+    .property-property{
+        width: 100%;
+        height: auto;
+    }
+    .hidden-mobile{
+        display: none
+    }
+    h1{
+        font-size: 18px;
+    }
+    
+    .welcome-text{
+        text-align: justify;
+        margin: 15px auto 0 auto;
+        padding: 5%;
+        background: #f5f5f5;
+    }
+    .property{
+        width: 90%;
+        height: 20%;
+    }
+    
+    .property-img{
+        width: 90%;
+        height: auto
+    }
+    
+    footer{
+        height: 250px;
+        padding: 10%;
+    }
+    
+    .contact-footer{
+        width: 100%;
+        text-align: center;
+        display: block;
+        margin: 0 auto
+    }
+    .menu-mobile{
+        display: block;
+        margin: 0
+    }
+    
+    header{
+        padding-left: 10px;
+    }
+    
+   
+    .middle-section{
+        width:90%;
+        margin-left: 15px;
+        margin-top: 0px;
+        margin-bottom: 5px;
+        clear: both;
+    }
+    .ceo-image {
+        width: 100%;
+        height: auto
+    }
+    
+    .middle-section img{
+/*        width: 100%;*/
+        height: auto
+    }
+    
+    .people div{
+    width: 100%;
+    }
+    .people img{
+        width: 150px;
+        float: left;
+        margin-right: 30px
+    }
+    h2{
+        font-size: 16px;
+    }
+    
+    /* custum scrollbar */
+        ::-webkit-scrollbar {
+            width: .5em;
+        }
+
+        ::-webkit-scrollbar-track {
+            -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+        }
+
+        ::-webkit-scrollbar-thumb {
+          background-color: darkgrey;
+          outline: 1px solid slategrey;
+        }
+     /* custum scrollbar */
+
+    .vision img{
+        width: 100%
+    }
+    .mobile-image{
+        width: 100%;
+        height: auto
+    }
+    
+    .service{
+        margin: 10px;
+        height: 120px;
+    }
+    .service img{
+        clear: left;
+        margin-right: 15px;
+        display: none
+    }
+    .service p{
+        width:100%;
+        float: clear;
+    }
+    
+    .property{
+        width: 100%
+    }
+    
+    .property img{
+        width: 100%
+    }
+    .property-detail-img{
+        width: 45%;
+        height: auto;
+    }
+    .left-section{
+        width:636px;
+        margin-left: 15px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        float: left;
+        border: 0px solid #000;
+    }
+    .contact label{
+        font-size: 12px;
+    }
+    .contact input{
+        display: block;
+        font-size: 14px;
+        padding: 5px;
+        margin: 5px 0px;
+    }
+    .contact textarea{
+        display: block;
+        width:40%;
+        font-size: 14px;
+    }
+    .contact .panel ul li{
+        font-size: 12px;
+        color: firebrick;
+    }
+    .contact .panel{
+        background-color:bisque;
+        padding: 10px 0;
+        width: 250px;
+    }
+
+    .contact .panelsucceed{
+        font-size: 12px;
+        width: 250px;
+    }
+    body{
+        font-size: 90%
+    }
+    
+    .right-section{
+        width: 90%;
+        margin: 5%; 
+    }
+    
+    .middle-section{
+        width:90%;
+        margin:5%;
+    }
+    
+    .gallery{
+        width: 100%;
+        height: 20%;
+    }
+    .gallery-image {
+        width: 300px;
+        height: 200px;
+    }
+    
+    p{
+        box-sizing: border-box
+    }
+}
+

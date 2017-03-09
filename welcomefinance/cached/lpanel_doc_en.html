@@ -1,0 +1,118 @@
+<div style="width:200px; float:left;">
+    <div class="left w100">
+        <div class="left size16 color_title" style="width:250px; margin-left:10px; padding-left: 10px;line-height: 31px;text-align: left; background:#008340;">
+            Category Document        </div>
+        <div style="width:257px; float:left; border:1px solid #e3e3e3; margin-left:10px; border-radius:5px; overflow:hidden">
+            <style type="text/css">
+    /* page styles*/
+    #menu {
+        margin:auto;
+    }
+    .caption { margin:auto; font-size:13px; text-align:center; }
+    #menu {
+        width:100%;
+        background-color:none;
+        line-height:30px;
+
+    }
+    #menu ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+    }
+    #menu li {
+        margin: 0;
+        margin-left:0px; /*padding:8px 0 8px 0;*/
+        border-bottom:1px solid #f2f2f2; 
+        text-align:left;
+        padding-left:0px;
+    }
+    #menu ul li a {
+        background:  url(bgimgs/arrow_category.png) left top 12px no-repeat;
+        text-decoration:none;
+        padding-left:10px;
+
+    }
+    #menu ul li ul li a {
+        text-decoration:none;
+        padding-left:10px;
+    }
+
+    #menu ul li a:link,#menu ul li a:visited{color:#007ead;}
+    #menu ul li a:hover{
+        font-weight:bold; color:#007ead;background:  url(bgimgs/c_category.png) left top 12px no-repeat;
+    }
+     #menu ul li a:active,#menu .active{font-weight:bold; color:#007ead;}
+
+    #menu li.active li {
+        font-weight:normal;
+    } /*do not bold level 2 when parent is active*/
+    #menu a {
+        display: block;
+    }
+    #menu ul li ul {
+        width:100%;
+        display:inline-block;
+
+    }
+    #menu ul li ul li a:link,#menu ul li ul li a:visited {
+        color:#007ead;
+        font-weight: bold;
+        padding-left:15px;background:none;
+    }
+    #menu ul li ul li a:hover,#menu ul li ul li a:active,#current{
+        color:#007ead !important;padding-left:15px;
+        font-size:13px;background-color:#fcefd7;
+    }
+   
+    /*OPTIONAL*/
+    #menu {
+        position:relative;
+        overflow:hidden;
+    } /*clip height pass 504 pixels*/
+</style>
+<script src="category_menu/jquery.js" type="text/javascript"></script>
+<script src="category_menu/jquery_002.js" type="text/javascript"></script>
+<script language="javascript" type="text/javascript">
+    $(document).ready(function() {
+        $(this).hoverAccordionMenu();	//build left menu accordion effects	
+        /*ie6 hack for mouse over icons on 2nd level. Not part of the plugin. optional!*/
+        if ($.browser.msie && $.browser.version.substr(0, 1) < 7) {
+            //rollover arrow which doesn't work with simple css
+            $('ul.menu > li > ul > li').bind("mouseenter", function(e) {
+                $(this).css("background", "url(ico-arrow-level2.gif) no-repeat");
+            });
+            $('ul.menu > li > ul > li').bind("mouseleave", function(e) {
+                $(this).not(".active").css("background", "none");
+            });
+        }
+    });
+</script>
+</head>
+                <div class="left w100 " onmouseover="$(this).css({'background': '#FFF url(bgimgs/superate_menu.png) repeat-y', 'color': '#4C2A00'})" onmouseout="$(this).css({'background': 'none', 'color': '#000'})" style="cursor: pointer;color:#000"  >
+                    <div class="left w100" style="height:1px; background:#FFF url(bgimgs/superate_menu.png) no-repeat; margin-top:0px;"></div>
+                    <div onclick="location = '?page=document&cc_id=1&lg=en'" class="left w100">
+                        <div class="left cate_menu_icon"></div>
+                        <div class="left size13 khsystem_en" style="width: 76%;line-height: 25px; margin-top: 4px; margin-bottom: 4px; height:25px; padding:0 10px 0 10px;">
+                Important Documents                        </div>
+                    </div> 
+                                </div>
+                                    <div class="left w100 " onmouseover="$(this).css({'background': '#FFF url(bgimgs/superate_menu.png) repeat-y', 'color': '#4C2A00'})" onmouseout="$(this).css({'background': 'none', 'color': '#000'})" style="cursor: pointer;color:#000"  >
+                    <div class="left w100" style="height:1px; background:#FFF url(bgimgs/superate_menu.png) no-repeat; margin-top:0px;"></div>
+                    <div onclick="location = '?page=document&cc_id=2&lg=en'" class="left w100">
+                        <div class="left cate_menu_icon"></div>
+                        <div class="left size13 khsystem_en" style="width: 76%;line-height: 25px; margin-top: 4px; margin-bottom: 4px; height:25px; padding:0 10px 0 10px;">
+                Month document                        </div>
+                    </div> 
+                                </div>
+                                    <div class="left w100 " onmouseover="$(this).css({'background': '#FFF url(bgimgs/superate_menu.png) repeat-y', 'color': '#4C2A00'})" onmouseout="$(this).css({'background': 'none', 'color': '#000'})" style="cursor: pointer;color:#000"  >
+                    <div class="left w100" style="height:1px; background:#FFF url(bgimgs/superate_menu.png) no-repeat; margin-top:0px;"></div>
+                    <div onclick="location = '?page=document&cc_id=3&lg=en'" class="left w100">
+                        <div class="left cate_menu_icon"></div>
+                        <div class="left size13 khsystem_en" style="width: 76%;line-height: 25px; margin-top: 4px; margin-bottom: 4px; height:25px; padding:0 10px 0 10px;">
+                Year document                        </div>
+                    </div> 
+                                </div>
+                            </div>
+    </div>
+</div>
