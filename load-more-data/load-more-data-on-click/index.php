@@ -20,12 +20,7 @@
                </button>
            </div>
        </div>
-       
-       
-       
-       
-       
-       
+
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
         <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script> <!--bootstrap js need jquery library-->
         <script type="text/javascript">
@@ -39,7 +34,7 @@
             $('.ani_image').show();
             $.post('ajax_post_control.php', {page:mypage}, function(data){
               if(data.trim().length == 0){
-                $('#loadmorebtn').text("hello").prop("disabled", true);
+                $('#loadmorebtn').text("No more data to load").prop("disabled", true);
               }
               $('.results').append(data);
               $('html, body').animate({scrollTop: $("#loadmorebtn").offset().top}, 800);

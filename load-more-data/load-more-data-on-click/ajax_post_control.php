@@ -1,7 +1,7 @@
 <?php
 $post = $_POST;
 $limit;
-$perpage = 3;
+$perpage = 5;
 $mysqli = new mysqli("localhost","root","","mysample_db");
 if($mysqli->connect_error){
     die('Error: ('.$mysqli->connect_errno.') '.$mysqli->connect_error);
@@ -20,5 +20,5 @@ $hasil->bind_param("dd", $posisi, $perpage);
 $hasil->execute();
 $hasil->bind_result($id, $name, $message);
 while($hasil->fetch()){
-	echo '<div class="well well-sm">'.$id.' '.$name.'<br><br>'.$message.'</div>';
+	echo '<div class="well well-sm"><b>'.$id.' '.$name.'</b><br>'.$message.'</div>';
 }
