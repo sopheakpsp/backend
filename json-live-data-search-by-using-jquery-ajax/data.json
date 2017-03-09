@@ -1,0 +1,32 @@
+{"employees":[
+	{
+		"name":"Sopheak", 
+		"image":"http://placehold.it/50x50",
+		"location":"Earth"
+	},
+	{
+		"name":"Many", 
+		"image":"http://placehold.it/50x50",
+		"location":"Ice Ege"
+	},
+	{
+		"name":"Ellie", 
+		"image":"http://placehold.it/50x50",
+		"location":"Dinorsor"
+	},
+	{
+		"name":"Sid", 
+		"image":"http://placehold.it/50x50",
+		"location":"Sidos"
+	},
+	{
+		"name":"Eago", 
+		"image":"http://placehold.it/50x50",
+		"location":"Tiger"
+	},
+	{
+		"name":"Peace", 
+		"image":"http://placehold.it/50x50",
+		"location":"Elephant"
+	}
+]}
