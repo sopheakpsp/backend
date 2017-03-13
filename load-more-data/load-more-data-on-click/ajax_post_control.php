@@ -1,6 +1,6 @@
 <?php
 $post = $_POST;
-$limit;
+
 $perpage = 5;
 $mysqli = new mysqli("localhost","root","","mysample_db");
 if($mysqli->connect_error){
@@ -14,11 +14,11 @@ if(!is_numeric($numpage)){
     exit();
 }
 
-$posisi = (($numpage - 1) * $perpage);
-$hasil = $mysqli->prepare("select * from post limit ?, ?");
-$hasil->bind_param("dd", $posisi, $perpage);
-$hasil->execute();
-$hasil->bind_result($id, $name, $message);
-while($hasil->fetch()){
+$limit = (($numpage - 1) * $perpage);
+$sql = $mysqli->prepare("select * from post limit ?, ?");
+$sql->bind_param("dd", $limit, $perpage);
+$sql->execute();
+$sql->bind_result($id, $name, $message);
+while($sql->fetch()){
 	echo '<div class="well well-sm"><b>'.$id.' '.$name.'</b><br>'.$message.'</div>';
 }

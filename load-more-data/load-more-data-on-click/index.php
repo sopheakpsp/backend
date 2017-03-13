@@ -1,5 +1,4 @@
 <!doctype html>
-
 <html>
 	<head>
 		<title>Load more content on click with PHP AJAX JQUERY</title>
@@ -26,10 +25,13 @@
         <script type="text/javascript">
           var mypage = 1;
           myContent(mypage);
+
           $('#loadmorebtn').click(function(e) {
             mypage++;
             myContent(mypage);
+            $('html, body').animate({scrollTop: $("#loadmorebtn").offset().top}, 800);
           });
+
           function myContent(mypage){
             $('.ani_image').show();
             $.post('ajax_post_control.php', {page:mypage}, function(data){
@@ -37,7 +39,6 @@
                 $('#loadmorebtn').text("No more data to load").prop("disabled", true);
               }
               $('.results').append(data);
-              $('html, body').animate({scrollTop: $("#loadmorebtn").offset().top}, 800);
               $('.ani_image').hide();
             });
           }
